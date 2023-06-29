@@ -1,7 +1,9 @@
 import os
-from database.database import DataBase
-from aiogram import Dispatcher, types
+
 import deepl
+from aiogram import Dispatcher, types
+
+from database.database import DataBase
 
 
 async def EchoTranslate(msg: types.Message):

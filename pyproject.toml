@@ -10,7 +10,6 @@ packages = [{include = "translator_bot"}]
 python = "^3.9"
 aiogram = "^2.25.1"
 deepl = "^1.15.0"
-pymongo = "^4.4.0"
 motor = "^3.2.0"
 
 

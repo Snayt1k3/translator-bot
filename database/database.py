@@ -3,7 +3,8 @@ import os
 
 
 class DataBase:
-    __database = motor.motor_asyncio.AsyncIOMotorClient(os.getenv('MONGO_URI_DEV'))
+    """Class for manage MongoDB"""
+    __database = motor.motor_asyncio.AsyncIOMotorClient(os.getenv('MONGO_DOCKER_URI'))
     __current_database = __database['translator-bot']
 
     @classmethod

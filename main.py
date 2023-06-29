@@ -2,7 +2,6 @@ import asyncio
 
 from aiogram import executor, types
 
-
 from bot import dp
 from handlers.main import register_handlers
 
