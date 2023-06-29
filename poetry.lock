@@ -424,6 +424,29 @@ files = [
 ]
 
 [[package]]
+name = "motor"
+version = "3.2.0"
+description = "Non-blocking MongoDB driver for Tornado or asyncio"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "motor-3.2.0-py3-none-any.whl", hash = "sha256:82cd3d8a3b57e322c3fa382a393b52828c9a2e98b315c78af36f01bae78af6a6"},
+    {file = "motor-3.2.0.tar.gz", hash = "sha256:4fb1e8502260f853554f24115421584e83904a6debb577354d33e9711ee99008"},
+]
+
+[package.dependencies]
+pymongo = ">=4.4,<5"
+
+[package.extras]
+aws = ["pymongo[aws] (>=4.4,<5)"]
+encryption = ["pymongo[encryption] (>=4.4,<5)"]
+gssapi = ["pymongo[gssapi] (>=4.4,<5)"]
+ocsp = ["pymongo[ocsp] (>=4.4,<5)"]
+snappy = ["pymongo[snappy] (>=4.4,<5)"]
+srv = ["pymongo[srv] (>=4.4,<5)"]
+zstd = ["pymongo[zstd] (>=4.4,<5)"]
+
+[[package]]
 name = "multidict"
 version = "6.0.4"
 description = "multidict implementation"
@@ -739,4 +762,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "061a141e51d79b61b4235be3c06fc4c4e8e07f198a43ed7f48936d69e5aba182"
+content-hash = "9d4ef19607cd85f4abf2e69d255da62c7885691fd69c0347177e25ef8e368984"
