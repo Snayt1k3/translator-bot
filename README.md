@@ -34,9 +34,13 @@ poetry install
 ``` 
 poetry shell
 ```
-4. Start your bot.
+4. Execute Tests
+``` 
+poetry run pytest
 ```
-python main.py
+5. Start your bot.
+```
+poetry run main.py
 ```
 
 ### Docker Installation
