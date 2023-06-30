@@ -15,10 +15,12 @@ By utilizing the powerful and reliable DeepL service, you can trust the quality 
 
 ## Installation
 
-#### Before Installation
+### Before Installation
 You need to set your env variables in .env file
 
 ### Local Installation
+
+0. **in database/database.py, set mongo url to local url**
 
 1. Install Poetry, if you didn't.
 ``` 
