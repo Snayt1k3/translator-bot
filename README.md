@@ -18,6 +18,8 @@ By utilizing the powerful and reliable DeepL service, you can trust the quality 
 ### Before Installation
 You need to set your env variables in .env file
 
+I **recommend** that you go through the test step in your local installation and then start the Docker container 
+
 ### Local Installation
 
 0. **in database/database.py, set mongo url to local url**
